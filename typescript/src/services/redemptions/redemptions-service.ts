@@ -129,7 +129,7 @@ export class RedemptionsService {
    *          - Main UTXO of the wallet.
    *          - Redeemer output script.
    */
-  protected async determineRedemptionData(
+  async determineRedemptionData(
     bitcoinRedeemerAddress: string,
     amount: BigNumber
   ): Promise<{
